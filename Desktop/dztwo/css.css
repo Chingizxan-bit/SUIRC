@@ -1,0 +1,64 @@
+* { 
+ 
+   margin:0;
+   padding:0;
+   box-sizing: border-box
+}
+.headers {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+button:hover {
+       cursor:pointer;
+	   background: azure;
+}
+button {
+	padding: 10px 5px;
+	background: white;
+	border:	2px solid teal;
+	font-weight: bold;
+	font-family: Courier New, serif;
+	border-radius: 20px;
+	font-size: 20px;
+}
+.user__inteface {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 15px
+	align-items: center;
+}	
+	
+	
+
+.user__inteface p {
+	font-family: Courier New, serif;
+	text-align: center;
+	text-shadow: green 10px 5px 5px;
+}
+
+.lists ul {
+    color: blue;	
+}	
+.lists ol {
+ color: red	
+}	
+.paragraphs p {
+       
+		font-size: 24px;
+		font-style: oblique;
+		text-align: center;
+		text-shadow: green 10px 5px 5px;
+		
+}	
+
+.image {
+	widht: 400px;
+	height: 400px;
+	background: url(
+	background-repeat: no-repeat;
+	background-size: cover
+	background-position: center;
+}	
