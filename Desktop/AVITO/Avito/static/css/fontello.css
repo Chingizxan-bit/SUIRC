@@ -85,3 +85,8 @@
 .icon-file-video:before { content: '\f1c8'; } /* '' */
 .icon-paper-plane:before { content: '\f1d8'; } /* '' */
 .icon-chart-line:before { content: '\f201'; } /* '' */
+
+
+.updated_date {
+    color: red; /* Замените "red" на нужный вам цвет */
+}
